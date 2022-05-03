@@ -61,7 +61,7 @@ contract VRFv2Consumer is VRFConsumerBaseV2 {
     uint256, /* requestId */
     uint256[] memory randomWords
   ) internal override {
-    s_randomWords = randomWords;
+    s_randomWords[s_requestId] = (randomWords[0] % 50) + 1;
   }
 
   modifier onlyOwner() {
