@@ -35,16 +35,12 @@ contract Lottery is VRFConsumerBaseV2 {
     }
 
     receive() external payable isNotLocked {
-        require(msg.value == 0.001 ether);
+        require(msg.value == 0.001 ether, "Only transfer 0.001");
         players.push(payable(msg.sender));
     }
 
     function getBalance() public view onlyWinnerAndOwner returns (uint256) {
         return address(this).balance;
-    }
-
-    function sendBalance() public payable onlyOwner {
-        payable(manager).transfer(getBalance());
     }
 
     function chooseWinner()
