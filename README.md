@@ -15,4 +15,4 @@ Note:
 if any problem occurs, please check if the VRF subscription has enough `LINK` to fund
 
 ## Sample Contract
-`Rinkeby` : `0x5ced73822cfab73cd5d6a2537c2b721cfc5128a0`
+`Rinkeby` : `0xe308533960200bbef632c9f7184d7ffc931bb591`
