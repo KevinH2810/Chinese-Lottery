@@ -16,3 +16,6 @@ if any problem occurs, please check if the VRF subscription has enough `LINK` to
 
 ## Sample Contract
 `Rinkeby` : `0xe308533960200bbef632c9f7184d7ffc931bb591`
+
+## Tech Stack
+(VRF Chainlink)[https://docs.chain.link/docs/chainlink-vrf/]
