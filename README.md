@@ -19,4 +19,5 @@ if any problem occurs, please check if the VRF subscription has enough `LINK` to
 
 ## Tech Stack
 [VRF Chainlink](https://docs.chain.link/docs/chainlink-vrf/)
+
 [Solidity](https://docs.soliditylang.org/en/v0.8.14/)
