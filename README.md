@@ -1,6 +1,6 @@
 # Lottery
 ## About
-This is a Lottery Contract inspired from chinese lottery version by implementing VRF for getting random number for choosing the winner.
+This is a Lottery Contract inspired from chinese lottery version by implementing VRF for getting random number to pick the winner.
 
 ## Guide
 1. see [documentation](https://docs.chain.link/docs/get-a-random-number/) from VRF if you want to deploy this contract as you need to fund it some `LINK` to make it work. if you want to test this on Rinkeby Network you can get some test coin from Chain link too, see [documentation](https://docs.chain.link/docs/chainlink-vrf/) for details.
